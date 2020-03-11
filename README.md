@@ -1,11 +1,10 @@
-# Java Interview Questions & Answers
+# JavaScript ES6 Interview Questions & Answers
 
 ### Table of Contents
 
 | No. | Questions |
 |---- | ---------
-|1 | [What is IIFE's](#what-is-iife)|
-
+|1 | [What is IIFE's (Immediately-Invoked Function Expression)](#what-is-iife)|
 
 
 1. ### What is IIFE's
