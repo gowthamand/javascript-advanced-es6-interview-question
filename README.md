@@ -6,6 +6,8 @@
 |---- | ---------
 |1 | [What is IIFE's (Immediately-Invoked Function Expression)](#what-is-iifes)|
 |2 | [What's the difference between .call and .apply?](#whats-the-difference-between-call-and-apply)|
+|2 | [What's the difference between using “let” and “var” to declare a variable in ES6?](#)|
+ 
 
 1. ### What is IIFE's
 
@@ -36,4 +38,6 @@ This is why, maybe, you confused this construction with an event-handler for win
      console.log(add.call(null, 1, 2)); // 3
     console.log(add.apply(null, [1, 2])); // 3
   ```
-**[⬆ Back to Top](#table-of-contents)**  
+**[⬆ Back to Top](#table-of-contents)**
+
+3 ### What's the difference between using “let” and “var” to declare a variable in ES6?
