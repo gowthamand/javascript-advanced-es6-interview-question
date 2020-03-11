@@ -15,9 +15,7 @@ Consider the part within the first pair of parentheses: ```(function(){})();```.
    
    This pattern is often used when trying to avoid polluting the global namespace, because all the variables used inside the IIFE (like in any other normal function) are not visible outside its scope.
 This is why, maybe, you confused this construction with an event-handler for window.onload, because it’s often used as this
-
   ```typescript
-  
     (function(){
       var foo = function() {};
       window.onload = foo;
@@ -26,8 +24,5 @@ This is why, maybe, you confused this construction with an event-handler for win
     (function IIFE(){
       console.log( "Hello!" );
     })();
-    
     ```
-
-
-  **[⬆ Back to Top](#table-of-contents)**
+    
