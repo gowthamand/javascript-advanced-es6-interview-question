@@ -4,8 +4,8 @@
 
 | No. | Questions |
 |---- | ---------
-|1 | [What is IIFE's (Immediately-Invoked Function Expression)](#what-is-iife)|
-|2 | [What's the difference between .call and .apply?)](#What's-the-difference-between-call-and-apply?)|
+|1 | [What is IIFE's (Immediately-Invoked Function Expression)](#what-is-iifes)|
+|2 | [What's the difference between .call and .apply?)](#whats-the-difference-between-call-and-apply)|
 
 1. ### What is IIFE's
 
