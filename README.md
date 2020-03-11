@@ -40,4 +40,4 @@ This is why, maybe, you confused this construction with an event-handler for win
   ```
 **[⬆ Back to Top](#table-of-contents)**
 
-3 ### What's the difference between using “let” and “var” to declare a variable in ES6?
+3. ### What's the difference between using “let” and “var” to declare a variable in ES6?
