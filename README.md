@@ -41,3 +41,22 @@ This is why, maybe, you confused this construction with an event-handler for win
 **[⬆ Back to Top](#table-of-contents)**
 
 3. ### What's the difference between using “let” and “var” to declare a variable in ES6?
+  Main difference is scoping rules. Variables declared by ``var`` keyword are scoped to the immediate function body (hence the function scope) while ``let`` variables are scoped to the immediate enclosing block denoted by `` { } `` (hence the block scope).
+  ```typescript
+  function run() {
+   var foo = "Foo";
+   let bar = "Bar";
+
+   console.log(foo, bar);
+
+   {
+     let baz = "Bazz";
+     console.log(baz);
+   }
+
+   console.log(baz); // ReferenceError
+  }
+
+run();
+  ```
+  **[⬆ Back to Top](#table-of-contents)**
